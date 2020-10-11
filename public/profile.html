@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/48d84926e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Hello Venus</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-green-100 body navbar" data-barba="wrapper">
+    <!-- navbar  -->
+    <div class="bg-hvgreen md:flex">
+      <nav class="md:w-2/3 w-11/12 md:mx-auto">
+        <div class="nav-header flex justify-between">
+          <img src="../img/Download 1.png" alt="hv-logo" />
+          <button type="button" class="toggler md:hidden">
+            <i
+              class="fas fa-bars text-3xl md:text-4xl hover:text-green-600"
+            ></i>
+          </button>
+        </div>
+      </nav>
+      <ul
+        class="nav-links hidden font-mono text-2xl md:block md:h-auto md:flex md:items-center md:w-full md:justify-around transition duration-1000 ease-in-out"
+      >
+        <li class="pl-2 hover:text-green-500">
+          <a href="./index.html">About</a>
+        </li>
+        <li class="pl-2 hover:text-green-500"><a href="#">Profile</a></li>
+        <li class="pl-2 hover:text-green-500"><a href="#">Discography</a></li>
+      </ul>
+    </div>
+    <!-- Hero -->
+    <main data-barba="container" data-barba-namespace="profile">
+      <div class="h-screen">
+        <div class="profile"></div>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <!-- <script src="https://unpkg.com/@barba/core"></script> -->
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

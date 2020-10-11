@@ -1,0 +1,16 @@
+{
+  "name": "055_HV_GSAP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "tailwindcss": "^1.8.13"
+  }
+}

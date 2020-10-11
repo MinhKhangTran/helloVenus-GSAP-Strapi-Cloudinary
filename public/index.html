@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/48d84926e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Hello Venus</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-green-100 body" data-barba="wrapper">
+    <!-- navbar  -->
+    <div class="bg-hvgreen md:flex navbar">
+      <nav class="md:w-2/3 w-11/12 md:mx-auto">
+        <div class="nav-header flex justify-between">
+          <img src="../img/Download 1.png" alt="hv-logo" />
+          <button type="button" class="toggler md:hidden">
+            <i
+              class="fas fa-bars text-3xl md:text-4xl hover:text-green-600"
+            ></i>
+          </button>
+        </div>
+      </nav>
+      <ul
+        class="nav-links hidden font-mono text-2xl md:block md:h-auto md:flex md:items-center md:w-full md:justify-around transition duration-1000 ease-in-out"
+      >
+        <li class="pl-2 hover:text-green-500">
+          <a href="#about">About</a>
+        </li>
+        <li class="pl-2 hover:text-green-500">
+          <a href="./profile.html">Profile</a>
+        </li>
+        <li class="pl-2 hover:text-green-500"><a href="#">Discography</a></li>
+      </ul>
+    </div>
+    <!-- Hero -->
+    <main data-barba="container" data-barba-namespace="home">
+      <div
+        class="hero flex flex-col justify-center md:flex-row md:w-11/12 md:mx-auto md:justify-between md:items-center"
+        style="min-height: calc(100vh - 62px)"
+      >
+        <div class="linkeSeite mt-8 mb-4 px-6">
+          <h1
+            class="text-hvgreen text-2xl font-bold md:text-3xl tracking-widest"
+          >
+            Hello Venus
+          </h1>
+          <p class="text-green-600 text-lg md:text-xl">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
+            possimus ex ipsam assumenda quam eius dolores ratione earum totam
+            maiores?
+          </p>
+        </div>
+        <div class="rechteSeite px-6 md:px-0 md:w-full z-10">
+          <img
+            class=""
+            src="../img//2020-10-08 09_18_13-(14) HELLOVENUS 헬로비너스 - 빛이 내리면(Glow) M_V - YouTube 1.png"
+            alt="hv"
+          />
+        </div>
+        <img
+          class="hidden md:block md:absolute md:bottom-0 md:left-0 h-40 deco"
+          src="../img/Ellipse 10 (1).png"
+          alt=""
+        />
+        <img
+          class="hidden md:block md:absolute md:top-0 md:left-0 md:ml-16 mt-40 deco"
+          src="../img/Group 1.png"
+          alt=""
+        />
+        <img
+          class="hidden md:block md:absolute md:bottom-0 md:right-0 md:mr-64 md:mb-8 deco"
+          src="../img/Group 4.png"
+          alt=""
+        />
+      </div>
+      <!-- About -->
+      <section class="about bg-white" id="about">
+        <div
+          class="hero flex flex-col-reverse justify-center md:flex-row-reverse md:w-11/12 md:mx-auto md:justify-between md:items-center"
+          style="min-height: 100vh"
+        >
+          <div class="linkeSeite1 mt-8 mb-4 px-6 md:w-2/3">
+            <h1
+              class="text-hvgreen text-2xl font-bold md:text-3xl tracking-widest"
+            >
+              About
+            </h1>
+            <p class="text-green-600 text-lg md:text-xl leading-relaxed">
+              Hello Venus (헬로비너스) currently consists of 6 members: Alice,
+              Nara, Lime, Seoyoung, Yooyoung, and Yeoreum. The band debuted on
+              2012, under Tricell Media (a joint between Pledis Entertainment
+              and Fantagio). In 2014, it was announced that the 2 company split
+              and Hello Venus will continue under Fantagio. They disbanded on
+              April 18, 2019.
+            </p>
+          </div>
+          <div class="rechteSeite2 px-6 md:px-0 md:w-full z-10">
+            <img
+              class=""
+              src="../img/632da39745d646c1b5ca85bb95068f00 1.png"
+              alt="hv"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <!-- <script src="https://unpkg.com/@barba/core"></script> -->
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
